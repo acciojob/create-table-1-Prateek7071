@@ -1,6 +1,6 @@
 const table=  document.getElementById('sampleTable')
-let level=0
-let level2=1
+let level=-1
+let level2=0
 function insert_Row() {
 	level+=2
 	level2+=2
