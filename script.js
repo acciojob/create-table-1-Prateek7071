@@ -6,8 +6,8 @@ function insert_Row() {
 	level2+=2
 	let child_td = document.createElement('tr')
 	child_td.innerHTML=`
-	<td>New cell${level}</td> 
-	<td>New cell${level2}</td>
+	<td>New Cell${level}</td> 
+	<td>New Cell${level2}</td>
 	`
 	table.appendChild(child_td)
 }
