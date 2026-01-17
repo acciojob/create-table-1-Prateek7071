@@ -9,5 +9,6 @@ function insert_Row() {
 	<td>New Cell${level}</td> 
 	<td>New Cell${level2}</td>
 	`
-	table.appendChild(child_td)
+	table.insertBefore(child_td,table.firstChild)
+
 }
